@@ -5,7 +5,7 @@ export default function ListItem({item, clickItem}) {
     <li 
         key={item.id} 
         className='list-item'
-        onClick={clickItem}
+        onClick={() => clickItem(item)}
         value={item.title}
         
     > 

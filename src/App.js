@@ -1,8 +1,12 @@
 import React from 'react'
-import List from './components/List'
+import Container from './components/Container'
+import Header from './components/Header'
 
 export default function App() {
   return (
-    <List />
+    <>
+      <Header />
+      <Container />
+    </>
   )
 }
