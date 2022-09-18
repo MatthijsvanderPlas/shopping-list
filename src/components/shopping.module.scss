@@ -1,0 +1,43 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 1rem;
+
+  & h2 {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  & h3 {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  & button {
+    margin: 0 auto;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 1rem;
+  }
+
+  & ul {
+    list-style-type: none;
+
+    & li {
+      padding: 0.5rem 2rem;
+      margin-bottom: 0.25rem;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(32, 109, 243);
+
+      & span {
+        text-align: right;
+      }
+    }
+
+    & li:nth-child(even) {
+      background-color: rgb(78, 192, 237);
+    }
+  }
+}

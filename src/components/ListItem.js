@@ -9,7 +9,7 @@ export default function ListItem({item, clickItem}) {
         value={item.title}
         
     > 
-        {item.title}
+        {item.title} {item.qty ? <span>Amount: {item.qty}</span> : null}
     </li>
   )
 }

@@ -1,0 +1,23 @@
+.grocery {
+  width: 50%;
+  margin: 1rem;
+
+  & h2 {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  & ul {
+    list-style-type: none;
+
+    & li {
+      padding: 0.5rem 2rem;
+      margin-bottom: 0.25rem;
+      background-color: rgb(188, 43, 43);
+    }
+
+    & li:nth-child(even) {
+      background-color: rgb(216, 95, 95);
+    }
+  }
+}
